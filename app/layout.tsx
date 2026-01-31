@@ -1,0 +1,1 @@
+import './globals.css'; import type { Metadata } from 'next'; export const metadata: Metadata = { title: 'قائمة مهامي العصرية', description: 'تطبيق لإدارة المهام بشكل احترافي' }; export default function RootLayout({ children }: { children: React.ReactNode }) { return ( <html lang="ar" dir="rtl"> <body className="bg-gray-50 min-h-screen">{children}</body> </html> ); }
